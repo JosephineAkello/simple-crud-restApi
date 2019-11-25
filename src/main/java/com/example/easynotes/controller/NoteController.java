@@ -46,6 +46,7 @@ public class NoteController {
         Note note = noteRepository.findById(noteId)
                 .orElseThrow(() -> new ResourceNotFoundException("Note", "id", noteId));
 
+
 //        note.setTitle(noteDetails.getTitle());
 //        note.setContent(noteDetails.getContent());
 
