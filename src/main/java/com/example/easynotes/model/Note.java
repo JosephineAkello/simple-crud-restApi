@@ -49,4 +49,19 @@ public class Note implements Serializable{
     private Date updatedAt;
 
 
+//    public String getContent() {
+//        return getContent();
+//    }
+//
+//    public String setContent(){
+//        return  setContent();
+//    }
+//
+//    public Object getTitle() {
+//        return getTitle();
+//    }
+//
+//    public Object setTitle() {
+//        return setTitle();
+//    }
 }
